@@ -106,3 +106,49 @@ within the dashboard.
 5. Use Next.js's <Link> component to create these navigation links. Ensure that clicking on these links navigates the
 user to the corresponding pages within the application without a full page refresh.
 
+# To use any hook in the component -> mark the component as "use client"
+
+# Exercise: Using useRouter in Next.js
+The goal of this exercise is to practice using the useRouter hook in a Next.js application for programmatic navigation and accessing route information.
+Instructions:
+1. Create two routes: "pagel- and "page2•.
+2. In ttw "pager route. create a simple landing page with a message and a button.
+3. In the "page? route, create a second page with information or content.
+4. Implement a programmatic navigation from "pager to "page? using the useRouter hook from Next. When the user clicks a button on •pagel."
+they should be navigated to -page2.-
+![methods]({7F319539-8583-47CB-A384-F21821F958A5}.png)
+
+
+# Private pages
+![private page]({62E0774C-3955-4D98-82F3-07B568141158}.png)
+
+# Routes grouping
+1. can be used to skip the route in next.js
+![route grouping]({13D439E7-2C06-4587-B2CF-290DEB5CE5DE}.png)
+
+
+# Exercise: Route Organization and Ignoring Routes in Next-js
+The goal Of this exercise is to practice organizing routes using folders and excluding certain folders from treated as routes in a application.
+Instructions:
+1, Create the •users" folder (but it shouldn't be a route).
+2. Inside the •users" folder create a "userinfo" route
+3. Inside the •app- directory create another folder name "auth• but it (shouldn't be a route).
+4. Inside the •auth" folder create a login route which will only print (Please Login To See The Content)
+
+
+# Dynamic Routes
+![e.g.1]({6BBA7861-DDF3-4947-B201-659A09D8DC9A}.png)
+![e.g.2]({1530ABD7-CC9C-4421-ABB2-DED0698F672B}.png)
+![e.g.3]({E6D9D306-9738-4147-A99E-80E284ACA142}.png)
+![e.g.4]({69F9C808-0607-4627-B520-64C2B64E08CF}.png)
+
+# Challenge: Create a Dynamic User Profile Page
+1. Create a dynamic route to display user profiles based on their ID.
+2. What should happen:
+If you visit /users/l . the page should display "User Profile: 1".
+If you visit /USerS/2 , the page should display "User Profile: 2".
+The page should dynamically change based on the ID in the URL.
+
+
+# Deeply nested routes
+// 2:30
