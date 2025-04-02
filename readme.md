@@ -150,5 +150,45 @@ If you visit /USerS/2 , the page should display "User Profile: 2".
 The page should dynamically change based on the ID in the URL.
 
 
-# Deeply nested routes
-// 2:30
+# Deeply nested routes - catch all rotues
+![Deeply nested routes]({4499866C-71AE-48A0-B6E4-B0A658A1CC34}.png)
+
+![opt1]({DD20711C-6EEE-4113-84DD-C51232EDE106}.png)
+![opt2]({3243F689-15E1-45F8-B689-FBAE010186A7}.png)
+![opt3]({4DE485DC-C9B6-4200-8369-78ECD9FD752C}.png)
+
+![exercise]({9E2F5E92-2713-459A-9606-58CB30C755A4}.png)
+
+
+# layout.tsx
+In Next.js (App Router), layout.tsx is a special file used to define shared UI layouts across pages. It helps maintain consistent structures like headers, sidebars, and footers while allowing pages to update dynamically inside a persistent layout.
+![nav-bar]({1B79371B-1773-4D71-B83C-97BAE4AF7E08}.png)
+This navbar will be present at all the routes.
+So, how can we effectivelly use it?
+![wrapper]({4891E2F1-FB9A-4233-B521-1D8AFABA6BD1}.png)
+![layout.tsx]({3F797E8C-1AF7-41F4-BEF5-E523D499223E}.png)
+
+- You can't leave the root directory without making the Layout.tsx file
+
+# Challenge: Layouts in Next-js
+. Create a Basic Layout:
+' Create a basic layout that contains a header. footer. and a si&bar.
+The layout should be reusable for different parts of site abwt etc.
+header should have links to the abwt page.
+The sidebar should display a list of categories CTR:t-ndogy••.
+The footer should contain sorre basic copyt"ht inforrnatm
+2. Create Different Laymtts for *ecific
+Admin Layout: Create an laym.t a different Stnxtue section Of the site
+• The layout ShOLAd a a Sidebar with •Settirgs•-
+• use the layout onw in the diteda•y.
+public Use the first laywt Step 1 tte rest of tte (e.g. rx)me, atnJt.
+3. Dynamic Content Based
+each using the layouts ensure that Cattent is ter&red inside main content area Of the layout below the header
+and beside the
+4. Custom a Specific
+Create a specific Laywt for a Nog post page that cmtins
+• A custom t•pader with the title of ttk bbg pst
+• A rnain content area that loads blog post
+• A sidebar showing recent
+
+[layout exercise]
