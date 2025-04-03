@@ -90,8 +90,8 @@ Instructions:
 3. Inside the "specificproduct" folder Create a Component which will show this text: "Here is my one & only product"
 
  
- # Redirecting 
- ![Redirecting]({5638BBE6-31F0-48E2-861F-409661620D39}.png)
+ # Navigation
+ ![Navigation]({5638BBE6-31F0-48E2-861F-409661620D39}.png)
 
 #Exercise: Linking and Navigation in Next.js
 The goal Of this exercise is to practice using Next.js•s component for client-side navigation in a Next.js
@@ -176,4 +176,37 @@ So, how can we effectivelly use it?
 
 # Template.tsx
 ![template]({6D6065E4-EA8E-409C-AEAD-F4537F01C5FB}.png)
-{3:20}
+![e.g.1]({226E28A2-451D-44BB-862D-C5F6CE39274E}.png)
+- Input field value will not chage if we layout.tsx
+- So, we make the use template.tsx to reset everything when we navigate from one page to another.
+- Value of the input field willnot be retained when we use the template.tsx
+
+
+# Not-Found.tsx
+![not-found]({612ABBC9-6ED7-4A70-A262-309DF30E0327}.png)
+![alt text]({806A8F21-5938-4139-AA48-F7A17096512E}.png)
+
+
+# Redirecting
+- When you try to  go to the user's page, you will be redirected to the about page.
+![redirecting]({3F3D692F-B7FE-4614-A950-3FCE823F07DB}.png)
+
+# Exercise
+![e.g.]({579ACFC7-A274-4AE6-9426-BF10D4211C6A}.png)
+
+
+
+# Loading.tsx
+![loading.tsx]({2D142301-D488-445F-971F-ACDB6AB7B391}.png)
+![alt text]({48C8F68D-9101-4CB9-9817-23A606B130C7}.png)
+
+
+# Error.tsx
+"use client"
+![alt text]({82E7B180-A981-4FE8-ACF7-2A77C8B2EAC8}.png)  
+![alt text]({5C31C0D7-BEC6-4783-949F-64EE3728271F}.png)
+
+
+# Internal and External Images
+
+<Image/> -> optises the image
