@@ -171,24 +171,9 @@ So, how can we effectivelly use it?
 - You can't leave the root directory without making the Layout.tsx file
 
 # Challenge: Layouts in Next-js
-. Create a Basic Layout:
-' Create a basic layout that contains a header. footer. and a si&bar.
-The layout should be reusable for different parts of site abwt etc.
-header should have links to the abwt page.
-The sidebar should display a list of categories CTR:t-ndogy••.
-The footer should contain sorre basic copyt"ht inforrnatm
-2. Create Different Laymtts for *ecific
-Admin Layout: Create an laym.t a different Stnxtue section Of the site
-• The layout ShOLAd a a Sidebar with •Settirgs•-
-• use the layout onw in the diteda•y.
-public Use the first laywt Step 1 tte rest of tte (e.g. rx)me, atnJt.
-3. Dynamic Content Based
-each using the layouts ensure that Cattent is ter&red inside main content area Of the layout below the header
-and beside the
-4. Custom a Specific
-Create a specific Laywt for a Nog post page that cmtins
-• A custom t•pader with the title of ttk bbg pst
-• A rnain content area that loads blog post
-• A sidebar showing recent
+![exercise]({4B2D84CB-B1B1-4EB0-B71B-B1E4CD54F882}.png)
 
-[layout exercise]
+
+# Template.tsx
+![template]({6D6065E4-EA8E-409C-AEAD-F4537F01C5FB}.png)
+{3:20}
